@@ -788,7 +788,7 @@ export const projects = [
   {
     id: "project-1",
     title: "Portfolio Optimization using Coherent Measures of Risk ",
-    github: "https://github.com/Aayush-patel-1696/PortfolioOptimization",
+    github: "https://github.com/Aayush-patel-1696/PortfolioOptimizationToolBox",
     link: "",
     image: pfopt,
     content:
@@ -823,6 +823,47 @@ export const projects = [
   },
   {
     id: "project-2",
+    title: "Portfolio Optimization using Stochastic Dominance Constraints",
+    github: "https://github.com/Aayush-patel-1696/StochasticDominancePortfolioOptimization",
+    link: "",
+    image: pfopt,
+    content:
+      "Optimization solver to obtain portfolio weights using Stochastic Dominance Constraints benchmarked against Equal Weighted Portfolio",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiScipy,
+        name: "Scipy"
+      },
+      {
+        id: "icon-2",
+        icon: SiNumpy,
+        name: "Numpy"
+      },
+      {
+        id: "icon-3",
+        icon: SiPython,
+        name: "Python"
+      },
+      {
+        id: "icon-4",
+        icon: SiPytorch,
+        name: "Pytorch"
+      },
+      // {
+      //   id: "icon-5",
+      //   icon: SiSolidity,
+      //   name: "Solidity"
+      // },
+      // {
+      //   id: "icon-6",
+      //   icon: IoIosNotificationsOutline,
+      //   name: "Push Protocol"
+      // },
+    ],
+  },
+  {
+    id: "project-3",
     title: "Black Scholes PDE solver using PINN",
     github: "https://github.com/Aayush-patel-1696/BlackSholesPINN",
     link: "",
@@ -863,7 +904,53 @@ export const projects = [
     ],
   },
   {
-    id: "project-3",
+    id: "project-4",
+    title: "Accelerated Index Tracking Algorithm",
+    github: "https://github.com/Aayush-patel-1696/AcceleratedIndexTracking",
+    link: "",
+    image: pfopt,
+    content:
+      "High Performant solver for index tracking using Gurobipy MIP solver",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiScipy,
+        name: "Scipy"
+      },
+      {
+        id: "icon-2",
+        icon: SiNumpy,
+        name: "Numpy"
+      },
+      {
+        id: "icon-4",
+        icon: SiPython,
+        name: "Python"
+      },
+      // {
+      //   id: "icon-5",
+      //   icon: FaHardHat,
+      //   name: "HardHat"
+      // },
+      // {
+      //   id: "icon-6",
+      //   icon: SiIpfs,
+      //   name: "IPFS"
+      // },
+      // {
+      //   id: "icon-7",
+      //   icon: SiArduino,
+      //   name: "Arduino"
+      // },
+      // {
+      //   id: "icon-8",
+      //   icon: IoIosNotificationsOutline,
+      //   name: "Push Protocol"
+      // },
+    ],
+  },
+  {
+    id: "project-5",
     title: "Interest Rates Modelling",
     github: "https://github.com/Aayush-patel-1696/InterestRateModelling",
     link: "",
@@ -909,9 +996,9 @@ export const projects = [
     ],
   },
   {
-    id: "project-4",
-    title: "Optimized Pairs trading strategy using Bayesian Optimization and time series forecasting",
-    github: "https://github.com/Aayush-patel-1696/SpreadPrediction",
+    id: "project-6",
+    title: "Risk Optimized Pairs trading strategy using Bayesian Optimization and time series forecasting",
+    github: "https://github.com/Aayush-patel-1696/AlgorithmicPairsTrading",
     link: "",
     image: ptraid,
     content:
@@ -945,7 +1032,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-5",
+    id: "project-7",
     title: "Numerical Methods for solving Fluid Structure Interaction problem",
     github: "",
     link: "https://www.researchgate.net/profile/Rajneesh-Bhardwaj-2/publication/363826593_Propulsive_performance_of_a_two-dimensional_elliptic_foil_undergoing_interlinked_pitching_and_heaving/links/64e6d7dc40289f7a0faf0444/Propulsive-performance-of-a-two-dimensional-elliptic-foil-undergoing-interlinked-pitching-and-heaving.pdf",
@@ -971,7 +1058,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-6",
+    id: "project-8",
     title: "Credit Card Fraud Detection using Machine Learning",
     github: "https://github.com/Aayush-patel-1696/CreditCardFraudDetection",
     link: "",
@@ -997,7 +1084,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-7",
+    id: "project-9",
     title: "Support Vector Machine Solver",
     github: "https://github.com/Aayush-patel-1696/Support-Vector-Machine",
     link: "",
@@ -1038,7 +1125,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-8",
+    id: "project-10",
     title: "Singular Value Decompostion on GPU",
     github: "https://github.com/Aayush-patel-1696/SVDCuda",
     link: "",
@@ -1079,7 +1166,7 @@ export const projects = [
     ],
   },
   {
-    id: "project-9",
+    id: "project-11",
     title: "High Performance Computing using OpenMp and MPI",
     github: "https://github.com/Aayush-patel-1696/High-Performance-Computing/tree/main",
     link: "",
